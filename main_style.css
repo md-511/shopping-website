@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    border: 2px solid red;
+
+}
+
+.navbar{
+    border: 2px solid red;
+}
+
+.navbar ul {
+    overflow: auto;
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+.navbar li {
+    padding: 10px 7px;
+    float: left;
+    margin: 13px 3px;
+}
+
+.navbar li a {
+    margin: 5px 8px;
+}
